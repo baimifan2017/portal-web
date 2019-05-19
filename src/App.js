@@ -1,26 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
+import React,{Component} from 'react';
 import './App.css';
+import {Spin} from "antd";
+import {connect} from 'react-redux'
+import Router from './configs/routers'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+    render() {
+        return (
+            <div style={{background:'#f0f2f5'}}>
+                <div style={{margin: '0px 0px 0px',background:'#fff'}}>
+                    <Spin tip="加载中..." spinning={this.props.loadings} style={{marginTop:"50px"}}>
+                        <Router/>
+                    </Spin>
+                </div>
+            </div>
+        );
+    }
 }
 
-export default App;
+const mapStateToProps = (state) => {
+    //console.log(state)
+    return {
+        loadings: state.GlobalReducer.loadings
+    }
+}
+
+export default connect(
+    mapStateToProps
+)(App)

@@ -1,0 +1,39 @@
+
+/*************stepOne**************/
+.registerOne .ant-card-head-title{
+    clear: both;
+    text-align: center !important;
+}
+/*阅读协议申明*/
+.registerOne .agreement .ant-form label {
+    /*font-weight: 700;*/
+    /*float: left;*/
+}
+.registerOne .ant-btn-primary,.registerTwo .ant-btn-primary,.registerThir .ant-btn-primary{
+    padding: 0px 35px;
+}
+/*************Agreenment**************/
+.agreement{
+    border: 1px solid #ebedf0;
+    margin-top:45px;
+    font-size: 0.86rem;
+    color: rgba(0, 0, 0, 0.82);
+}
+.agreement p:first-child{
+    font-weight: 400;
+    text-align: center;
+}
+
+.agreementTitle{
+    color: rgba(0, 0, 0, 1);
+    text-indent: 2em;
+}
+.agreementContent{
+    text-indent: 2em !important;
+}
+
+
+/*************注册第三步**************/
+.registerThir .ant-checkbox-group-item + .ant-checkbox-group-item {
+    margin: 10px 0px;
+}

@@ -1,0 +1,230 @@
+.index{
+    /*height: 80vh;*/
+}
+.index .carsouel-item{
+    height: 45vh;
+}
+
+.index .ant-row{
+    position: relative;
+}
+
+
+.list{
+    border-bottom: 1px solid #e9e7e7;
+    min-height: 30px;
+    line-height: 30px;
+    padding: 6px 0px;
+}
+.staticList{
+    min-height: 30px;
+    line-height: 30px;
+    display: block;
+    margin: 0px auto;
+    padding: 0px;
+    list-style: none;
+    position: relative;
+    text-align: center;
+}
+
+
+
+.staticList ul{
+
+
+}
+.staticList ul:nth-child(0) li{
+    display: inline-block;
+    white-space: nowrap;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+.staticList img{
+    display: inline;
+}
+.staticList-item{
+    display: inline-flex;
+}
+.staticList-item ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.staticList-item ul li:first-child{
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: #262626;
+    margin-top: 3px;
+}
+.staticList-item ul li:last-child{
+    font-size: 1rem;
+}
+.staticList ul::after{
+    clear: both;
+    content: '';
+}
+
+.news{
+    width: 100%;
+    margin: 45px 0px;
+}
+.news-header{
+    text-align: center;
+    margin: 55px 0px;
+}
+
+.news-header-content{
+    font-size: 1.2rem;
+}
+.news-left{
+}
+.news-right{
+    display: inline-flex;
+    float: right;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer{
+    /*background-image: url("../../comms/imgs/footer.jpg");*/
+    color: #ffffff;
+    padding: 30px 0px;
+    background-color:#383d61;
+    opacity: 0.9;
+    z-index: -1;
+    height: 250px;
+
+
+}
+.footer > div{
+    /*background: rgba(0, 0, 0, 0.45);*/
+    /*background-color:#383d61;*/
+    /*opacity: 0.7;*/
+
+}
+.footer h3{
+    color: #ffffff;
+    z-index: 111;
+    font-weight: 500!important;
+}
+.footer p{
+    text-indent: 2em;
+}
+
+.footer-link{
+    width: 100%;
+}
+.footer-link .ant-list-bordered {
+    border: none;
+    color:#ffffff;
+}
+.footer-link .ant-list-bordered .ant-list-item {
+    padding-right: 5px;
+    padding-left: 0px;
+    border: none;
+    color:#ffffff;
+}
+.footer-link .ant-list-bordered .ant-list-item a{
+    color:#ffffff;
+}
+.footer-link .ant-list-item {
+
+    padding: 8px 0;
+}
+
+
+
+.finacingTools{
+    margin: 25px 0px;
+    display: block;
+}
+.finacingTools .finacingTools-two{
+    margin: 35px 0px;
+}
+.finacingTools .ant-card-cover img {
+    padding: 20px;
+}
+.finacingTools  img{
+    width: 80%;
+}
+
+
+.finacingResults{
+    height: 80vh;
+    margin: 10vh 0px;
+    background-image: url("../../comms/imgs/53.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    color: #fff;
+}
+.finacingResults-body{
+    background:rgba(0,0,0,.55);
+    height: 80vh;
+    padding:83px 0 100px;
+    margin: 10vh 0px;
+}
+.finacingResults-body span{
+
+
+}
+.finacingResults-body img{
+    position: relative;
+    width: 77%;
+}
+.finacingResults-body .beichuan{
+    position: absolute;
+    left: 8%;
+    top: 26%;
+}
+.finacingResults-body .anzhou{
+    position: absolute;
+    left: 10%;
+    top: 48%;
+}
+
+.finacingResults-body .fucheng{
+    position: absolute;
+    left: 20%;
+    top: 70%;
+}
+.finacingResults-body .santai{
+    position: absolute;
+    left: 29%;
+    top: 89%;
+}
+.finacingResults-body .pingwu{
+    position: absolute;
+    left: 50%;
+    top: 7%;
+}
+.finacingResults-body .jiangyou{
+    position: absolute;
+    left: 56%;
+    top: 25%;
+}
+.finacingResults-body .zitong{
+    position: absolute;
+    left: 58%;
+    top: 44%;
+}
+.finacingResults-body .youxian{
+    position: absolute;
+    left: 62%;
+    top: 62%;
+}
+.finacingResults-body .yanting{
+    position: absolute;
+    left: 64%;
+    top: 80%;
+}
+.finacingResults-body p{
+    text-indent: 2em;
+    color: #ded9d9;
+}
+
+.show{
+    margin-top: 10px;
+    margin-bottom: 75px;
+}

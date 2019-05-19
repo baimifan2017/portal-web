@@ -1,0 +1,146 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+/*重置默认样式，保证不同浏览器样式一致*/
+/*html, body, div, span, applet, object, iframe,*/
+/*h1, h2, h3, h4, h5, h6, p, blockquote, pre,*/
+/*a, abbr, acronym, address, big, cite, code,*/
+/*del, dfn, em, img, ins, kbd, q, s, samp,*/
+/*small, strike, strong, sub, sup, tt, var,*/
+/*b, u, i, center,*/
+/*dl, dt, dd, ol, ul, li,*/
+/*fieldset, form, label, legend,*/
+/*table, caption, tbody, tfoot, thead, tr, th, td,*/
+/*article, aside, canvas, details, embed,*/
+/*figure, figcaption, footer, header, hgroup,*/
+/*menu, nav, output, ruby, section, summary,*/
+/*time, mark, audio, video {*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+    /*border: 0;*/
+    /*font-size: 100%;*/
+    /*font: inherit;*/
+    /*vertical-align: baseline;*/
+/*}*/
+/*!* HTML5 display-role reset for older browsers *!*/
+/*article, aside, details, figcaption, figure,*/
+/*footer, header, hgroup, menu, nav, section {*/
+    /*display: block;*/
+/*}*/
+/*body {*/
+    /*line-height: 1;*/
+    /*position: relative;*/
+    /*margin: 0px;*/
+    /*padding: 0px;*/
+    /*height: 100%;*/
+    /*width: auto;*/
+    /*background: #FFFFFF;*/
+/*}*/
+/*ol, ul {*/
+    /*list-style: none;*/
+/*}*/
+/*blockquote, q {*/
+    /*quotes: none;*/
+/*}*/
+/*blockquote:before, blockquote:after,*/
+/*q:before, q:after {*/
+    /*content: '';*/
+    /*content: none;*/
+/*}*/
+/*table {*/
+    /*border-collapse: collapse;*/
+    /*border-spacing: 0;*/
+/*}*/
+
+.basicLayOut{
+    background: #ffffff;
+}
+.basicLayOut-header{
+    height: 200px;
+    line-height: 8vh;
+    color: #FFFFFF;
+    background: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    white-space: nowrap !important;
+    background: url("../comms/imgs/pattern-dark.png");
+}
+
+.basicLayOut-header span{
+
+    margin: 5px 0px;
+
+
+ }
+.basicLayOut-header p{
+    text-align: center;
+    margin: 50px auto;
+    font-size: 3rem;
+
+}
+.basicLayOut{
+    height: 100vh;
+
+}
+.basicLayOut-content{
+    height: 87vh;
+    background: #FFFFFF !important;
+
+}
+
+.basicLayOut-content-left{
+    width: 25vw;
+    padding: 15px 25px;
+    background: #FFFFFF !important;
+}
+.basicLayOut-content-left p{
+    font-size: 0.8em;
+    margin: 10px 0px;
+    color: #bababa;
+}
+.basicLayOut-content-left button{
+    margin: 7px auto;
+    border-radius: 2px;
+    color: #010101;
+    font-weight: 500;
+    height: 33px;
+}
+.basicLayOut-content-right{
+    width: 75vw;
+}
+
+
+.basicLayOut-footer{
+    height: 5vh;
+    background: #FFFFFF !important;
+}
+
+
+.clicked{
+    color: #ffffff !important;
+    background: #3671CF;
+}
+.ant-btn-primary {
+    color: #ffffff !important;
+
+}
+.basicLayOut .ant-page-header-title-view{
+    height: 0px!important;
+    height: 100px;
+    display: none;
+    visibility: hidden;
+    border: 1px solid red;
+}
+.basicLayOut .ant-page-header-title-view-title {
+
+    display: none;
+}
+.basicLayOut .ant-page-header .ant-breadcrumb {
+    border-bottom: 0.5px solid #e9e4e4;
+    padding-bottom: 10px;
+    margin: 0px;
+}

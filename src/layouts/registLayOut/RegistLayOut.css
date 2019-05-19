@@ -1,14 +1,19 @@
 
 .register-header{
     display: block;
-    height: 8vh;
-
+    height: 100px;
+    padding: 20px 0px;
+    border: 1px solid #ebedf0;
 }
 .register-body{
     display: block;
-    height: 82vh;
+    padding: 30px 0;
+    width: 100vw;
+    max-width: 100%;
+    height: auto;
+    overflow-x: hidden !important;
 }
 .register-footer{
      display: block;
-    height: 10vh;
+    height: 55px;
  }

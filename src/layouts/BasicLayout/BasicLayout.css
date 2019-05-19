@@ -1,0 +1,23 @@
+.basic-layout{
+    min-height: 100vh;
+    background-color: #ffffff;
+    padding-bottom: 8px;
+
+}
+.basic-layout .ant-layout-header{
+    background-color: white;
+    height: auto;
+    padding: 0 26px 0 26px;
+}
+
+.basic-layout .page-title {
+    padding: 20px 0;
+    font-size: 20px;
+    line-height: 1;
+    color: #262626;
+}
+.basic-layout .basic-layout-content{
+    background-color: white;
+    margin: 10px 8px 0 8px;
+    /*padding-bottom: 13px;*/
+}
