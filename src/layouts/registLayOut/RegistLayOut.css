@@ -1,0 +1,14 @@
+
+.register-header{
+    display: block;
+    height: 8vh;
+
+}
+.register-body{
+    display: block;
+    height: 82vh;
+}
+.register-footer{
+     display: block;
+    height: 10vh;
+ }
